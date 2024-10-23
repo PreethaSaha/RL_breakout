@@ -1,0 +1,5 @@
+numpy==1.21.0
+gym==0.26.2
+tensorflow==2.13.0
+matplotlib==3.4.3
+pillow==9.2.0
