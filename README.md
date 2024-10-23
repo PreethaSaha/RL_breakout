@@ -13,6 +13,16 @@ The main features of the code are as follows:
 - __Image Preprocessing__: converts game frames to grayscale, resizes them, and normalizes pixel values to feed into the network
 - __Epsilon-Greedy Policy__: balances exploration and exploitation through an epsilon-greedy approach.
   
+  # Pre-requisites:
+  
+  Python 3.7+;
+  OpenAI Gym (with the atari package);
+  TensorFlow 2.x;
+  Numpy;
+  PIL (Python Imaging Library);
+  Matplotlib
+
+  The appropriate non-flicting versions of the dependencies used here are quoted in the _requirements.txt_. 
 
 ## Installation:
 To use this code, please follow these steps:
@@ -21,7 +31,7 @@ To use this code, please follow these steps:
 
 <div>
   <button class="copy-button" onclick="copyToClipboard(this.parentElement.nextElementSibling.textContent)"></button>
-  <pre><code>git clone https://github.com/PreethaSaha/RL_breakout.git
+  <pre><code>git clone https://github.com/PreethaSaha/RL_breakout.git 
   </code></pre>
 </div>
 
@@ -41,6 +51,10 @@ To use this code, please follow these steps:
 
   </code></pre>
 </div>
+
+## Results:
+
+<img src = "https://github.com/PreethaSaha/RL-breakout/blob/main/breakout_v5_5k_5e-5.png" width = "70%">
 
 ## Future improvements:
 
