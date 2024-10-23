@@ -1,19 +1,18 @@
-# RL_breakout
-# Work in progess!
+# RL_breakout - Work in progess!
 
 # Description
 
 This repository contains an implementation of a Deep Q-Network (DQN) to train an agent to play the classic __Breakout__ game. The agent leverages convolutional neural networks to process game frames and utilizes reinforcement learning techniques, such as experience replay and target networks, to learn effective strategies for maximizing rewards. The model is developed using __TensorFlow__ and the __OpenAI Gym__ environment for gameplay simulation.
 
-The main features of the code are as follows:
+The main features of the code are as follows: 
 
 - __Deep Reinforcement Learning__: utilizes a DQN architecture with convolutional neural networks to play Breakout
 - __Experience Replay__: stores past experiences in a buffer and randomly samples them to break correlation between consecutive experiences and improve learning stability
 - __Target Network__: incorporates a separate target network to stabilize training by updating it less frequently than the main network
-- __Image Preprocessing__: converts game frames to grayscale, resizes them, and normalizes pixel values to feed into the network
+- __Image Preprocessing__: converts game frames to grayscale, resizes them to 84x84 pixels, and normalizes pixel values [0, 1] to feed into the network
 - __Epsilon-Greedy Policy__: balances exploration and exploitation through an epsilon-greedy approach.
   
-  # Pre-requisites:
+  ## Pre-requisites:
   
   Python 3.7+;
   OpenAI Gym (with the atari package);
@@ -22,9 +21,9 @@ The main features of the code are as follows:
   PIL (Python Imaging Library);
   Matplotlib
 
-  The appropriate non-flicting versions of the dependencies used here are quoted in the _requirements.txt_. 
+  The appropriate non-conflicting versions of the dependencies used here are quoted in the _requirements.txt_. To install these, please follow __step 2__ of __Usage__. 
 
-## Installation:
+## Usage:
 To use this code, please follow these steps:
 
 1. Clone the repository
@@ -43,18 +42,25 @@ To use this code, please follow these steps:
   </code></pre>
 </div>
 
-## Usage:
+3. To train the DQN agent, run:
 
 <div>
   <button class="copy-button" onclick="copyToClipboard(this.parentElement.nextElementSibling.textContent)"></button>
   <pre><code>python testrun_v5_5k.py
-
   </code></pre>
 </div>
 
+You can adjust training parameters such as the number of episodes, epsilon decay, and batch size in the testrun_v5_5k.py file
+
 ## Results:
 
-<img src = "https://github.com/PreethaSaha/RL-breakout/blob/main/breakout_v5_5k_5e-5.png" width = "70%">
+  ### Training:
+  The training loop runs for a specified number of episodes. During each episode, the agent starts by exploring (random actions) to learn about the environment. As training progresses, it shifts toward exploiting the best-known actions, reducing random actions.
+
+The training progress is saved in a CSV file. The model weights are saved in breakout_model_v5_XX_XX.h5 whenever the agent achieves a predefined reward threshold.
+
+[<img src = "https://github.com/PreethaSaha/RL-breakout/blob/main/breakout_v5_5k_5e-5.png" width = "20%">]: #
+![alt text](https://github.com/PreethaSaha/RL_breakout/blob/main/breakout_v5_5k_5e-5.png)
 
 ## Future improvements:
 
