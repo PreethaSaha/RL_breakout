@@ -41,3 +41,16 @@ To use this code, please follow these steps:
 
   </code></pre>
 </div>
+
+## Future improvements:
+
+- __Parameter Tuning__: experiment with different hyperparameters for better training 
+- __Prioritized Experience Replay__: use a prioritized experience replay buffer to enhance learning from more informative experiences
+
+## Benefaction:
+
+Contributions are welcome! Please submit issues and pull requests for improvements or bug fixes.
+
+## License:
+
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/PreethaSaha/RL_breakout/blob/main/LICENSE) file for more details.
