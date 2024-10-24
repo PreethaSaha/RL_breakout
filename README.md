@@ -74,3 +74,9 @@ Contributions are welcome! Please submit issues and pull requests for improvemen
 ## License:
 
 This project is licensed under the MIT License - see the [LICENSE](https://github.com/PreethaSaha/RL_breakout/blob/main/LICENSE) file for more details.
+
+### References:
+
+1. [Mnih, V., Kavukcuoglu, K., Silver, D., Rusu, A. A., Veness, J., Bellemare, M. G., ... & Hassabis, D. (2015). "Human-level control through deep reinforcement learning."](https://www.nature.com/articles/nature14236)
+2. [Lin, L. J. (1992). "Self-improving reactive agents based on reinforcement learning, planning and teaching." Machine Learning, 8(3-4), 293-321.](https://link.springer.com/article/10.1007/BF00992699)
+3. [Bellemare, M. G., Naddaf, Y., Veness, J., & Bowling, M. (2013). "The Arcade Learning Environment: An Evaluation Platform for General Agents." Journal of Artificial Intelligence Research, 47, 253-279.](https://arxiv.org/abs/1207.4708)
