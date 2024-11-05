@@ -1,5 +1,5 @@
-numpy==1.21.0
+numpy==1.26.3
 gym==0.26.2
-tensorflow==2.13.0
-matplotlib==3.4.3
-pillow==9.2.0
+tensorflow==2.10.0
+matplotlib==3.8.0
+pillow==10.0.1
