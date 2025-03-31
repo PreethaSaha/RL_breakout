@@ -60,7 +60,7 @@ You can adjust training parameters such as the number of episodes, epsilon decay
 The training progress is saved in a CSV file. The model weights are saved in breakout_model_v5_XX_XX.h5 whenever the agent achieves a predefined reward threshold.
 
 [<img src = "https://github.com/PreethaSaha/RL-breakout/blob/main/breakout_v5_5k_5e-5.png" width = "20%">]: #
-![alt text](https://github.com/PreethaSaha/RL_breakout/blob/main/breakout_v5_5k_5e-5.png)
+![alt text](https://github.com/PreethaSaha/RL_breakout/blob/main/breakout_v5_3k_1e-4.png)
 
 ## Future improvements:
 
