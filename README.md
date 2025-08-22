@@ -62,6 +62,8 @@ The training progress is saved in a CSV file. The model weights are saved in bre
 [<img src = "https://github.com/PreethaSaha/RL-breakout/blob/main/breakout_v5_5k_1e-4.png" width = "20%">]: #
 ![alt text](https://github.com/PreethaSaha/RL_breakout/blob/main/breakout_v5_5k_1e-4.png)
 
+[best-performing test episode](media/best_breakout_episode-episode-0 copy.mp4)
+
 ## Future improvements:
 
 - __Parameter Tuning__: experiment with different hyperparameters for better training 
